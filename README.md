@@ -1,4 +1,4 @@
-# 🍬 US Candy Distributor — Data Warehouse & BI Analytics
+#  US Candy Distributor — Data Warehouse & BI Analytics
 
 An end-to-end data engineering and analytics project: raw CSV exports from a US candy distributor are cleaned, modeled into a star-schema data warehouse, and surfaced in an interactive Power BI dashboard.
 
@@ -6,7 +6,7 @@ Built as a portfolio project to demonstrate the full pipeline — **ETL (Python)
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The dataset covers order-level sales for a candy distributor across 15 products, 5 factories, and customers in the US and Canada, alongside sales targets by division and a US ZIP-code geographic reference table.
 
@@ -18,7 +18,7 @@ The dataset covers order-level sales for a candy distributor across 15 products,
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
                      ┌─────────────────┐
@@ -108,17 +108,12 @@ Built in Power BI, connected directly to the MySQL warehouse.
 ### Page 1 — Sales Analysis
 KPI cards (Revenue, Customers, Profit, Profit Margin %), revenue by ship mode, revenue/profit trend over time, revenue by division, revenue by region, and top 10 cities by profit.
 
-![Sales Analysis](docs/screenshots/sales_analysis.png)
+![alt text](US_Candy_Distributor_Sales_Dashboard.png)
 
 ### Page 2 — Product Analysis
 Revenue by product and by factory, division/product slicers, revenue-by-division breakdown, and revenue-vs-target gauges per division.
 
-![Product Analysis](docs/screenshots/product_analysis.png)
-
-### Page 3 — Logistics Efficiency *(in progress)*
-Haversine-distance-based route efficiency: profit-per-mile by route, most/least efficient shipping lanes, and the factory reallocation savings opportunity identified in the EDA notebook.
-
----
+![alt text](US_Candy_Distributor_Product_Dashboard-1.png)
 
 ## ✅ Data Validation
 
